@@ -18,7 +18,7 @@ def speak(audio):
     engine.runAndWait()
 
 def chat():
-    genai.configure(api_key="AIzaSyA4TIHZ_ezXBTJ8s9VFzWpHH4S8zv5JGlE")
+    genai.configure(api_key="YOUR_API_KEY")
 
     r = sr.Recognizer() 
 
