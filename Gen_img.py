@@ -3,7 +3,7 @@ import openai as op
 import pyautogui
 
 def gen_image():
-    op.api_key = "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"
+    op.api_key = "Input_YOUR_API"
     user_input = input("Write you prompt Here:")
 
     respone = op.Image.create(
